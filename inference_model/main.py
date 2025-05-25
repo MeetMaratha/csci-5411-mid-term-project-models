@@ -15,8 +15,8 @@ def getInference() -> Response:
     query: str = request_data["query"]
     context: str = request_data["context"]
 
-    prompt: str = f"""<｜begin▁of▁sentence｜>Human: 
-    [INST] You are an expert AI assistant. Carefully analyze the provided context to answer the question. 
+    prompt: str = f"""<｜begin▁of▁sentence｜>Human:
+    [INST] You are an expert AI assistant. Carefully analyze the provided context to answer the question.
     Your response must be:
     - Factual and precise
     - Based ONLY on the given context
